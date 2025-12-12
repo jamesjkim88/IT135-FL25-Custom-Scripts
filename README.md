@@ -36,20 +36,28 @@ chmod +x log_analyzer.sh
 
 ### All filtered files will be under log_analysis_output directory
 
+```bash
 ./log_analyzer.sh <log_file> [customerID] [region] [error_code]
+```
 
 ## Filter by error code only
 
+```bash
 ./log_analyzer.sh <log_file> "" "" [error_code]
+```
 
 ## Process entire log without filters
 
+```bash
 ./log_analyzer.sh sample_logs.txt
+```
 
 ## View outputs
 
+```bash
 cat log_analysis_output/filtered_logs.txt # Lines matching your filters
 cat log_analysis_output/report.txt # Summary of matching lines, unique customers, and alerts
+```
 
 Sample script to run:
 
