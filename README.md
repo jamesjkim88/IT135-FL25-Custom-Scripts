@@ -88,3 +88,9 @@ Total unique customers:        1
 2025-12-11T08:52:11 1234 us-east-1 E001 "Failed login attempt"
 2025-12-11T09:13:45 1234 us-east-1 E001 "Failed login attempt"
 ```
+
+## Attribution
+
+- This project was developed by James Kim.
+- Special thanks to ChatGPT for guidance on scripting best practices, improving the Bash log analyzer, creating a structured output folder, and debugging issues with Git commits and rebase commands.
+- Additional inspiration and resources were taken IT-135 along many resources that came with it.
